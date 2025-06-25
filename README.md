@@ -44,15 +44,17 @@ SPMS provides:
 
 ```
 spms/
-├── api-gateway/
-├── config-server/
 ├── eureka-server/
+├── config-server/
+├── api-gateway/
 ├── parking-space-service/
-├── payment-service/
+├── vehicle-service/
 ├── user-service/
-├── supabase/
-└──vehicle-service/
- ```
+├── payment-service/
+├── docs/screenshots/
+├── postman_collection.json
+└── README.md
+```
 
 ## 🚀 Getting Started
 
@@ -79,3 +81,8 @@ spms/
 - 📈 Scalable microservice architecture
 - 🔄 Service discovery and load balancing
 - 📝 Comprehensive API coverage
+
+## 📚 Resources
+
+- [📋 Postman Collection](./postman_collection.json)
+- ![🖥️ Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
